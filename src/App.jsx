@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Components
 import Navbar from "./components/navbar";

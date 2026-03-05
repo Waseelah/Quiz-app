@@ -1,5 +1,6 @@
 import React, { useState }            from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom' // ← Import Link for logo navigation
 import { useQuiz }                    from '../context/QuizContext'
 
 const Navbar = () => {

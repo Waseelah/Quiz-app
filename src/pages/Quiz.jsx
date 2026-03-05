@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useNavigate }                         from 'react-router-dom'
 import { useQuiz }                             from '../context/QuizContext'
 import { questions as allQuestions }           from '../data/questions'
-import ProgressBar                             from '../components/ProgressBar'
+import ProgressBar                             from '../components/progressBar'
 import QuestionCard                            from '../components/QuestionCard'
 
 const TIME_PER_QUESTION = 30
